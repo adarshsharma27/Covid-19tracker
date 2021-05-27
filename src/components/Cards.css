@@ -1,0 +1,87 @@
+.card-service{
+    width:100%;
+    height:400px;
+    box-shadow: 0 5px 35px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+     border-radius:10px;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-content: center;
+     cursor: pointer;
+     position: relative;
+     text-align: center;
+     overflow: hidden;
+     margin: 15px auto;
+    padding: 1.2rem;
+   
+  
+   
+ }
+ .card-service:hover{
+   
+    transition: all 0.5s ease!important;
+    
+ }
+
+ 
+.card-service h2{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color:#4c505d;
+    margin: 0;
+    
+}
+.card-service p{
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 2rem;
+    color:hsl(201, 11%, 66%);
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    overflow: hidden;
+    word-break: break-word;
+    -webkit-box-orient: vertical;
+   
+}
+ .card-service .img-border {
+    border: 3px solid #262c7c;
+    border-radius: 100%;
+    width: 40%;
+    margin: 0 auto;
+ }
+ .card-service::before{
+     content:'';
+     position: absolute;
+     width:100%;
+     height:0%;
+     background-color: rgb(235, 0, 101);
+     top: 0;
+     left:0;
+     transition:all 0.8s ease;
+
+ }
+ 
+ .card-service:hover::before{
+    top:0;
+    left:0;
+    height: 100%;
+
+ }
+ .card-service:hover main , .card-service:hover img {
+    z-index: 3;
+   
+ }
+ .card-service:hover h2 , .card-service:hover p{
+    color:#fff;
+ }
+
+ #spread {
+    background-image: url('../images/virus.svg'); 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+ }
+ 

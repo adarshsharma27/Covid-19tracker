@@ -1,0 +1,36 @@
+.card{
+    margin: 15px auto;
+    box-shadow: 0 5px 35px 0 rgb(0 0 0 / 8%);
+    text-align:center;
+    border-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+
+  .card-body{
+      margin: 0 auto;
+      text-align: center;
+      padding: 10px;
+  }
+  .card-title{
+      padding-bottom: 0rem;
+  }
+  .card h4{
+      font-size: 1.1rem;
+     
+      color:#4c505d;
+    
+  }
+  .card p{
+      font-size: 1rem;
+      color:hsl(201, 11%, 66%);
+      -webkit-line-clamp: 2;
+      display: -webkit-box;
+      overflow: hidden;
+      word-break: break-word;
+      -webkit-box-orient: vertical;
+      margin-bottom: 0.5rem;
+     
+  }
+  
