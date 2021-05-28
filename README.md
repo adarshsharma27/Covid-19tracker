@@ -2,7 +2,7 @@
 ---
 Covid-19 tracker using Reactjs
 ---
-
 > ![Website]('images/screenshotapp.png')
+> ### [LiveWebsite](https://covid19livetrack.netlify.app)
 
-> ![website](https://i.ibb.co/0VW9rjv/screenshotapps.png")
+
